@@ -1,0 +1,26 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "je ne sais pas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jen-Frith/Projet-DOM.git"
+  },
+  "keywords": [
+    "DOM"
+  ],
+  "author": "Brahiam Rua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jen-Frith/Projet-DOM/issues"
+  },
+  "homepage": "https://github.com/Jen-Frith/Projet-DOM#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1"
+  }
+}
