@@ -1,6 +1,7 @@
 import './autres/exo2.js';
 import './autres/exo3.js';
-import './autres/exo4.js'
+import './autres/exo4.js';
+import './autres/exo5.js'
 
 let ajouter= document.getElementById("exo1-txt");
 ajouter.innerHTML= "Mon texte remodifiée";
