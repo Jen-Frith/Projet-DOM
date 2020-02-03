@@ -44,7 +44,8 @@
     </div>
    -->
    <div class="container">
-  
+    <section id="espaceCalculette2">
+  <section id="espaceCalculette">
     <!-- 1st section -->
     <section class="row tm-section" >
      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
@@ -177,86 +178,74 @@
  <img src="./aide/img/image-02.jpg" alt="Image" class="img-fluid">
 </div>
 </section>
+</section>
 
-  <!-- 6th Section -->
-  <section class="row">
-    <div class="col-lg-12 tm-form-header pl-5 pr-5">
-      <h2 class="tm-container-inner tm-text-color-white">Application Form</h2>
+
+<!-- <script>let affichage= (val) =>{  document.getElementById("ecran").value+=val 
+  // chiffre1= document.createElement("p")
+  // ecran.value.innerHTML= 1
+  //chiffre1.appendChild(ecran.value)
+  }</script> -->
+<section id="espaceToDolist" class="bg-warning"><h1>To do list</h1>
+
+  <div class="d-flex justify-content-center">
+<input id="copie" onKeyPress="if (event.keyCode == 13) myFunction10()" type="text" class="w-50" placeholder="Que dois-je faire ?">
+
+<!-- <button onclick="MyFunction10()">GO</button> -->
+
+  <button>Toutes</button>
+<button>Complétées</button>
+<button>A faire</button>
+
+</div>
+<br>
+<div id="colle">
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</section>
+</section>
+  <!-- CALCULETTE -->
+  <td colspan="3"><input id="ecran"/></td> 
+    <section id="clavierNumero" class="d-flex">
+   <div> <button onclick="affichage ('1')" id="un">1</button>
+    <button onclick="affichage ('4')" id="quatre">4</button>
+    <button onclick="affichage ('7')" id="sept">7</button>
+    <button onclick="affichage ('0')" id="zero">0</button>
+    <button onclick="affichage (',')" id="virgule">,</button>
+   </div>   
+   
+   <div>
+       <button onclick="affichage ('2')" id="deux">2</button>   
+       <button onclick="affichage ('5')" id="cinq">5</button >
+       <button onclick="affichage ('8')" id="huit">8</button >
+       <button onclick="fEraseLastElement ('')" id="effacerDernierElement">CE</button>
+       <button onclick="fResultat ('')" id="egal">=</button >
     </div>
-    <div class="col-lg-12 pl-2 pl-sm-3 pl-md-5 pr-2 pr-sm-3 pr-md-5">
-      <form action="index.html" method="post" class="row tm-container-inner tm-contact-form">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="form-group">
-            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Full Name"  required/>
-          </div>
-          <div class="form-group">
-            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-          </div>
-          <div class="form-group">
-            <select>
-              <option value="">Position</option>
-              <option value="ceo">Chief Executive Officer</option>
-              <option value="ms">Marketing Specialist</option>
-              <option value="om">Operating Manager</option>
-              <option value="sa">Sales Assistant</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <select>
-              <option value="">Salary</option>
-              <option value="100k">$100,000-$140,000</option>
-              <option value="200k">$200,000-$260,000</option>
-              <option value="300k">$300,000-$375,000</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="form-group">
-            <div class="row">
-              <div class="col-lg-6">
-                <label>
-                  <input type="radio" name="gender" value="m" required> Male
-                </label>
-              </div>
-              <div class="col-lg-6">
-                <label>
-                  <input type="radio" name="gender" value="f" required> Female
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Additional Message" required></textarea>
-          </div>
-        </div>
-        <div class="col-xs-12 mt-4 tm-center">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
+    
+    <div>
+        <button onclick="affichage ('3')" id="trois">3</button >
+        <button onclick="affichage ('6')" id="six">6</button> 
+        <button onclick="affichage ('9')" id="neuf">9</button> 
+        <button onclick= "fEraseAll()" id="eraseAll">C</button>
     </div>
-    <div class="col-lg-12 tm-bg-color-gray tm-text-color-white tm-font-thin tm-form-footer">
-      <div class="row tm-container-inner">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="tm-footer-info-box">
-            <h4>Lorem ipsum dolor</h4>
-            <address>
-              1010 Vivamaus viverra<br>
-              Leo vel porttitor sodales<br>
-              Non eleifend 10980
-            </address>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="tm-footer-info-box">
-            <p>Maecenas fermentum<br>
-            Nam eu justo et urna<br>
-            Semper maximus libero<br>
-            Etiam magna quam</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    
+    <div>
+        <button onclick="affichage ('+')" id="addition">+</button><br>
+        <button onclick="affichage ('*')" id="multiplication">X</button>
+        <button onclick="affichage ('/')" id="division">/</button>
+        <button onclick="affichage ('-')" id="soustraction">-</button><br>
+        <!-- <input type="text"> -->
+</div>
+
+<div>
+</div>
+</section>
+
   
   <!-- Footer -->
   <div class="row">
@@ -285,8 +274,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
+<script type="module" src="./src/JS/main.js" ></script>
 
 
-<script type="module" src="./src/JS/main.js" defer></script>
 </body>
 </html>

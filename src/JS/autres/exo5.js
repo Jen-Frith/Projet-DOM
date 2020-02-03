@@ -1,8 +1,8 @@
 let linkExo5= document.getElementById("linkExo5")
 let erase= document.getElementById("jespere")
 let GO5= () =>{
-  let ensemble5= document.querySelector("section")
-  ensemble5.remove()
+  //let ensemble5= document.querySelector("section")
+  //ensemble5.remove()
     erase.remove()
 
 }
