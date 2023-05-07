@@ -21,6 +21,6 @@
   "homepage": "https://github.com/Jen-Frith/Projet-DOM#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^8.0.0"
   }
 }
